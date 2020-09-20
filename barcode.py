@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\15734\Desktop\Barcode_GUI\.\form_state.ui',
-# licensing of 'C:\Users\15734\Desktop\Barcode_GUI\.\form_state.ui' applies.
+# Form implementation generated from reading ui file '.\Barcode_GUI\.\form_state.ui',
+# licensing of '.\Barcode_GUI\.\form_state.ui' applies.
 #
 # Created: Sun Jul 14 01:41:17 2019
 #      by: pyside2-uic  running on PySide2 5.13.0
@@ -16,7 +16,7 @@ import sys, os, sqlite3, datetime, time
 # datetime.datetime.strptime(time.strftime("%Y-%m-%d %H:%M:%S"), "%Y-%m-%d %H:%M:%S")
 import PySide2
 
-conn = sqlite3.connect("patron_barcode_record.db")
+conn = sqlite3.connect("./patron_barcode_record.db")
 c = conn.cursor()
 
 c.execute("""CREATE TABLE IF NOT EXISTS barcodes(
