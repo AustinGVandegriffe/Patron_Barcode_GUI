@@ -1,0 +1,3 @@
+# Patron_Barcode_GUI
+A prototype GUI for Public Patron desktop check-in.
+This prototype GUI was developed to streamline public patron check-in at the library I worked at. Prior to this GUI, patron information was manually entered into a logbook to hold them accountable for suspicious or malicious use of the university's property. These log sheets were shredded after 2 weeks and their contents could very easily be accessed by any library staff, potentially placing patron privacy at risk. After a review of this GUI with IT, we concluded that a Flask server would better secure entries; hence, this project was converted into a webwidget.
